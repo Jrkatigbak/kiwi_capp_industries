@@ -2278,3 +2278,43 @@ a {
     padding: 80px 0;
   }
 }
+
+/* Full Image Section After Core Values */
+
+.full-image-section {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.full-image-section img {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 767px) {
+  .full-image-section {
+    min-height: auto;
+  }
+
+  .full-image-section img {
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+.full-image-section {
+  width: 100%;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.full-image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
