@@ -1635,7 +1635,7 @@ a {
   border-radius: 38px;
   background:
     linear-gradient(135deg, rgba(6, 33, 63, 0.94), rgba(0, 83, 166, 0.86)),
-    url("assets/images/business-overview.png");
+    url("../images/business-overview.png");
   background-size: cover;
   background-position: center;
   box-shadow: 0 28px 75px rgba(6, 33, 63, 0.22);
